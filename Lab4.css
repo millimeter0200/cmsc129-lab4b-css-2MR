@@ -1,5 +1,7 @@
 * {
     width: 100%;
+    margin:0;
+    padding:0;
 }
 
 table {
@@ -17,13 +19,48 @@ td {
     object-fit: cover;
 }
 
-body {
-    background-color: lightblue;
+
+h1{
+    text-align: center;
+    color:black;
 }
 
-.about {
-    background-color: lightgreen;
+.navBar {
+    text-align: right;
+    word-spacing: 10px;
 }
+ 
+.coffee img{
+    top:0;
+    left: 0;
+    z-index:-1;
+}
+
+footer {
+    background-color:#6F4E37;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+footer #title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .contacts {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
 
 /* 
 LABORATORY EXERCISE #4

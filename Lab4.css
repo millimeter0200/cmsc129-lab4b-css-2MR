@@ -16,18 +16,16 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4c6a6' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-header {
-    margin-bottom: 20px;
-}
-
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     color: #3e2723;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    padding: 15px;
     transition: transform 0.3s;
-    float: left;
+    top:0px;
+    text-align: left;
+    padding:0px;
+    margin:0px;
 }
 
 hr {
@@ -35,7 +33,7 @@ hr {
     height: 2px;
     background-image: linear-gradient(to right, rgba(62, 39, 35, 0), rgba(62, 39, 35, 0.75), rgba(62, 39, 35, 0));
     margin: 15px 0;
-    float:left;
+    clear:both;
 }
 
 /* navbar styling */
@@ -45,12 +43,12 @@ hr {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    position: sticky;
-    top: 10px;
+    position: fixed;
+    top: 35px;
     z-index: 100;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px 800px;
     max-width: 90%;
-    float: right;
+    right:0px;
 }
 
 .navBar a {
@@ -203,6 +201,7 @@ p {
     color: #555;
     text-align: justify;
     padding: 10px;
+    text-indent:50px;
 }
 
 .coffee img{
